@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "TimeTrack Pro",
+  "version": "1.0",
+  "permissions": ["tabs", "storage", "idle", "activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "host_permissions": ["http://localhost:5173/"],
+  "icons": {
+    "128": "icons/icon128.png"
+  }
+}

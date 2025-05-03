@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TimeTracker</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 16px;
+      width: 300px;
+    }
+
+    h2 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    #data-list {
+      padding-left: 16px;
+      font-size: 14px;
+    }
+
+    #open-dashboard {
+      margin-top: 12px;
+      display: inline-block;
+      background-color: #2563eb;
+      color: white;
+      padding: 8px 12px;
+      border-radius: 6px;
+      text-align: center;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    #open-dashboard:hover {
+      background-color: #1d4ed8;
+    }
+  </style>
+</head>
+<body>
+  <h2>Today's Activity</h2>
+  <ul id="data-list"></ul>
+
+  <a id="open-dashboard" href="#"> Open Dashboard</a>
+
+  <script src="popup.js"></script>
+</body>
+</html>
